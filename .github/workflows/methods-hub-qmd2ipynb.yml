@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - index.qmd
 jobs:
   test-methods-hub-render:
     name: Convert Quarto to Jupyter Notebook
