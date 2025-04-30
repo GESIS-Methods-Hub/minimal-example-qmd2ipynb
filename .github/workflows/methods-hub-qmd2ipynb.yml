@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - index.qmd
 jobs:
   convert-qmd-into-ipynb:
     name: Convert Quarto to Jupyter Notebook
