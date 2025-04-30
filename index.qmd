@@ -35,7 +35,7 @@ jupyter:
 Lorem ipsum
 
 ```{r}
-|# eval: false
+#| eval: false
 
 install.packages("stringr")
 ```
