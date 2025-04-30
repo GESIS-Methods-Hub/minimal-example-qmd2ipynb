@@ -6,6 +6,7 @@ on:
 jobs:
   test-methods-hub-render:
     name: Convert Quarto to Jupyter Notebook
+    runs-on: ubuntu-24.04
     steps:
       - name: Convert index.qmd
         uses: GESIS-Methods-Hub/qmd2ipynb@v2
