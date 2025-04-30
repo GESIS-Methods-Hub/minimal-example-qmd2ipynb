@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  test-methods-hub-render:
+  convert-qmd-into-ipynb:
     name: Convert Quarto to Jupyter Notebook
     runs-on: ubuntu-24.04
     steps:
