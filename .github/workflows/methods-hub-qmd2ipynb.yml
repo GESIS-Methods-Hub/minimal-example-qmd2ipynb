@@ -8,7 +8,9 @@ on:
 jobs:
   test-methods-hub-render:
     name: Convert Quarto to Jupyter Notebook
-    uses: GESIS-Methods-Hub/qmd2ipynb@v2
-    with:
-      files: 'index.qmd'
-      token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Convert index.qmd
+        uses: GESIS-Methods-Hub/qmd2ipynb@v2
+        with:
+          files: 'index.qmd'
+          token: ${{ secrets.GITHUB_TOKEN }}
